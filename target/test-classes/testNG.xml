@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoCommerceBestPractice Suite">
+    <listeners>
+        <listener class-name="utils.Listeners.Listeners"/>  <!-- the directory of the listeners class in the project-->
+    </listeners>
+    <parameter name="browser" value="edge"/>
+    <parameter name="baseURL" value="https://demo.nopcommerce.com/"/>
+    <test name="MaleDataTest">
+        <classes>
+            <class name="register.RegisterMale">
+                <methods>
+                <include name = "registerMaleTest"/>
+                </methods>
+            </class>
+            <class name="login.LoginMale">
+                <methods>
+                    <include name = "loginMaleTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="FemaleDataTest">
+        <classes>
+            <class name="register.RegisterFemale">
+                <methods>
+                    <include name = "registerFemaleTest"/>
+                </methods>
+            </class>
+            <class name="login.LoginFemale">
+                <methods>
+                    <include name = "loginFemaleTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="E2ETest">
+        <classes>
+            <class name="search.SearchTestWord">
+            </class>
+            <class name="search.SearchTestTags">
+            </class>
+            <class name="shoppingcart.AddingItemCheckCount">
+            </class>
+            <class name="shoppingcart.AddingItemOpenCart">
+            </class>
+            <class name="wishlist.AddingItemCheckingCount">
+            </class>
+            <class name="wishlist.AddingItemOpenWish">
+            </class>
+            <class name="followus.FaceBookTest">
+            </class>
+            <class name="followus.YouTubeTest">
+            </class>
+            <class name="followus.TwitterTest">
+            </class>
+<!--            <class name="sliders.SlidersTests">-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+pages\Register\RegisterPage.class
+pages\Register\RegisterConfirmPage.class
+pages\Search\SearchPage.class
+pages\Product\ProductPage.class
+pages\HomePage.class
+pages\ShoppingCart\ShoppingCartPage.class
+pages\FollowUs\FollowUsPage.class
+pages\Sliders\SlidersPage.class
+Utils\ActionsPage.class
+pages\WishList\WishListPage.class
+pages\Login\LoginPage.class

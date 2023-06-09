@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="0" total="14" passed="8" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-18T14:27:21 AST" name="DemoCommerceBestPractice Suite" finished-at="2023-05-18T14:28:38 AST" duration-ms="77385">
+    <groups>
+    </groups>
+    <test started-at="2023-05-18T14:27:21 AST" name="MaleDataTest" finished-at="2023-05-18T14:27:37 AST" duration-ms="16174">
+      <class name="register.RegisterMale">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:register.RegisterMale@423b2b62]" started-at="2023-05-18T14:27:21 AST" name="setUp" finished-at="2023-05-18T14:27:26 AST" duration-ms="5022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:register.RegisterMale@423b2b62]" started-at="2023-05-18T14:27:26 AST" name="goDemo" finished-at="2023-05-18T14:27:27 AST" duration-ms="842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="registerMaleTest()[pri:0, instance:register.RegisterMale@423b2b62]" started-at="2023-05-18T14:27:27 AST" name="registerMaleTest" finished-at="2023-05-18T14:27:30 AST" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMaleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:register.RegisterMale@423b2b62]" started-at="2023-05-18T14:27:30 AST" name="tearDown" finished-at="2023-05-18T14:27:30 AST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- register.RegisterMale -->
+      <class name="login.LoginMale">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:login.LoginMale@4821aa9f]" started-at="2023-05-18T14:27:30 AST" name="setUp" finished-at="2023-05-18T14:27:33 AST" duration-ms="2845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:login.LoginMale@4821aa9f]" started-at="2023-05-18T14:27:33 AST" name="goDemo" finished-at="2023-05-18T14:27:34 AST" duration-ms="819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="loginMaleTest()[pri:0, instance:login.LoginMale@4821aa9f]" started-at="2023-05-18T14:27:34 AST" name="loginMaleTest" finished-at="2023-05-18T14:27:36 AST" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMaleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.LoginMale@4821aa9f]" started-at="2023-05-18T14:27:36 AST" name="tearDown" finished-at="2023-05-18T14:27:37 AST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.LoginMale -->
+    </test> <!-- MaleDataTest -->
+    <test started-at="2023-05-18T14:27:38 AST" name="FemaleDataTest" finished-at="2023-05-18T14:27:48 AST" duration-ms="10734">
+      <class name="login.LoginFemale">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:login.LoginFemale@7a485a36]" started-at="2023-05-18T14:27:44 AST" name="setUp" finished-at="2023-05-18T14:27:46 AST" duration-ms="2340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:login.LoginFemale@7a485a36]" started-at="2023-05-18T14:27:46 AST" name="goDemo" finished-at="2023-05-18T14:27:47 AST" duration-ms="833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="loginFemaleTest()[pri:0, instance:login.LoginFemale@7a485a36]" started-at="2023-05-18T14:27:47 AST" name="loginFemaleTest" finished-at="2023-05-18T14:27:47 AST" duration-ms="0" status="FAIL">
+          <exception class="org.json.simple.parser.ParseException">
+            <full-stacktrace>
+              <![CDATA[Unexpected character (D) at position 0.
+at org.json.simple.parser.Yylex.yylex(Unknown Source)
+at org.json.simple.parser.JSONParser.nextToken(Unknown Source)
+at org.json.simple.parser.JSONParser.parse(Unknown Source)
+at org.json.simple.parser.JSONParser.parse(Unknown Source)
+at org.json.simple.parser.JSONParser.parse(Unknown Source)
+at login.LoginFemale.loginFemaleTest(LoginFemale.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.json.simple.parser.ParseException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFemaleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.LoginFemale@7a485a36]" started-at="2023-05-18T14:27:48 AST" name="tearDown" finished-at="2023-05-18T14:27:48 AST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.LoginFemale -->
+      <class name="register.RegisterFemale">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:register.RegisterFemale@74e6094b]" started-at="2023-05-18T14:27:38 AST" name="setUp" finished-at="2023-05-18T14:27:40 AST" duration-ms="2803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:register.RegisterFemale@74e6094b]" started-at="2023-05-18T14:27:40 AST" name="goDemo" finished-at="2023-05-18T14:27:41 AST" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="registerFemaleTest()[pri:0, instance:register.RegisterFemale@74e6094b]" started-at="2023-05-18T14:27:41 AST" name="registerFemaleTest" finished-at="2023-05-18T14:27:43 AST" duration-ms="2613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFemaleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:register.RegisterFemale@74e6094b]" started-at="2023-05-18T14:27:43 AST" name="tearDown" finished-at="2023-05-18T14:27:44 AST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- register.RegisterFemale -->
+    </test> <!-- FemaleDataTest -->
+    <test started-at="2023-05-18T14:27:48 AST" name="E2ETest" finished-at="2023-05-18T14:28:38 AST" duration-ms="49645">
+      <class name="search.SearchTestTags">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:search.SearchTestTags@7b122839]" started-at="2023-05-18T14:27:53 AST" name="setUp" finished-at="2023-05-18T14:27:55 AST" duration-ms="2268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:search.SearchTestTags@7b122839]" started-at="2023-05-18T14:27:55 AST" name="goDemo" finished-at="2023-05-18T14:27:55 AST" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="searchTestWithContainedWordAndTags()[pri:0, instance:search.SearchTestTags@7b122839]" started-at="2023-05-18T14:27:55 AST" name="searchTestWithContainedWordAndTags" finished-at="2023-05-18T14:27:58 AST" duration-ms="2541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestWithContainedWordAndTags -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:search.SearchTestTags@7b122839]" started-at="2023-05-18T14:27:58 AST" name="tearDown" finished-at="2023-05-18T14:27:58 AST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- search.SearchTestTags -->
+      <class name="followus.YouTubeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:followus.YouTubeTest@445bb139]" started-at="2023-05-18T14:28:25 AST" name="setUp" finished-at="2023-05-18T14:28:27 AST" duration-ms="2157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:followus.YouTubeTest@445bb139]" started-at="2023-05-18T14:28:27 AST" name="goDemo" finished-at="2023-05-18T14:28:28 AST" duration-ms="392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="followUsTest()[pri:0, instance:followus.YouTubeTest@445bb139]" started-at="2023-05-18T14:28:28 AST" name="followUsTest" finished-at="2023-05-18T14:28:31 AST" duration-ms="3121" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Twitter page isn't opened expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Twitter page isn't opened expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at followus.YouTubeTest.followUsTest(FollowUsTests.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followUsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:followus.YouTubeTest@445bb139]" started-at="2023-05-18T14:28:32 AST" name="tearDown" finished-at="2023-05-18T14:28:33 AST" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- followus.YouTubeTest -->
+      <class name="search.SearchTestWord">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:search.SearchTestWord@1de9b505]" started-at="2023-05-18T14:27:48 AST" name="setUp" finished-at="2023-05-18T14:27:51 AST" duration-ms="2408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:search.SearchTestWord@1de9b505]" started-at="2023-05-18T14:27:51 AST" name="goDemo" finished-at="2023-05-18T14:27:51 AST" duration-ms="397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="searchTestWithContainedWord()[pri:0, instance:search.SearchTestWord@1de9b505]" started-at="2023-05-18T14:27:51 AST" name="searchTestWithContainedWord" finished-at="2023-05-18T14:27:52 AST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestWithContainedWord -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:search.SearchTestWord@1de9b505]" started-at="2023-05-18T14:27:52 AST" name="tearDown" finished-at="2023-05-18T14:27:53 AST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- search.SearchTestWord -->
+      <class name="sliders.SlidersTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:sliders.SlidersTests@b9a77c8]" started-at="2023-05-18T14:28:33 AST" name="setUp" finished-at="2023-05-18T14:28:36 AST" duration-ms="2416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:sliders.SlidersTests@b9a77c8]" started-at="2023-05-18T14:28:36 AST" name="goDemo" finished-at="2023-05-18T14:28:36 AST" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method retried="true" signature="testSliders()[pri:0, instance:sliders.SlidersTests@b9a77c8]" started-at="2023-05-18T14:28:36 AST" name="testSliders" finished-at="2023-05-18T14:28:36 AST" duration-ms="97" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion fail expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion fail expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at sliders.SlidersTests.testSliders(SlidersTests.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSliders -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:sliders.SlidersTests@b9a77c8]" started-at="2023-05-18T14:28:36 AST" name="goDemo" finished-at="2023-05-18T14:28:37 AST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method retried="true" signature="testSliders()[pri:0, instance:sliders.SlidersTests@b9a77c8]" started-at="2023-05-18T14:28:37 AST" name="testSliders" finished-at="2023-05-18T14:28:37 AST" duration-ms="59" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion fail expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion fail expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at sliders.SlidersTests.testSliders(SlidersTests.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSliders -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:sliders.SlidersTests@b9a77c8]" started-at="2023-05-18T14:28:37 AST" name="goDemo" finished-at="2023-05-18T14:28:37 AST" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="testSliders()[pri:0, instance:sliders.SlidersTests@b9a77c8]" started-at="2023-05-18T14:28:37 AST" name="testSliders" finished-at="2023-05-18T14:28:37 AST" duration-ms="90" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion fail expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion fail expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at sliders.SlidersTests.testSliders(SlidersTests.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSliders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sliders.SlidersTests@b9a77c8]" started-at="2023-05-18T14:28:37 AST" name="tearDown" finished-at="2023-05-18T14:28:38 AST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sliders.SlidersTests -->
+      <class name="wishlist.AddingItemCheckingCount">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:wishlist.AddingItemCheckingCount@1afd72ef]" started-at="2023-05-18T14:28:12 AST" name="setUp" finished-at="2023-05-18T14:28:15 AST" duration-ms="2125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:wishlist.AddingItemCheckingCount@1afd72ef]" started-at="2023-05-18T14:28:15 AST" name="goDemo" finished-at="2023-05-18T14:28:15 AST" duration-ms="383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="testAddingItemAndCheckingCount()[pri:0, instance:wishlist.AddingItemCheckingCount@1afd72ef]" started-at="2023-05-18T14:28:15 AST" name="testAddingItemAndCheckingCount" finished-at="2023-05-18T14:28:18 AST" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddingItemAndCheckingCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:wishlist.AddingItemCheckingCount@1afd72ef]" started-at="2023-05-18T14:28:18 AST" name="tearDown" finished-at="2023-05-18T14:28:18 AST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- wishlist.AddingItemCheckingCount -->
+      <class name="shoppingcart.AddingItemCheckCount">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:shoppingcart.AddingItemCheckCount@3743539f]" started-at="2023-05-18T14:27:58 AST" name="setUp" finished-at="2023-05-18T14:28:01 AST" duration-ms="2316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:shoppingcart.AddingItemCheckCount@3743539f]" started-at="2023-05-18T14:28:01 AST" name="goDemo" finished-at="2023-05-18T14:28:02 AST" duration-ms="893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="testAddingItemAndCheckingCount()[pri:0, instance:shoppingcart.AddingItemCheckCount@3743539f]" started-at="2023-05-18T14:28:02 AST" name="testAddingItemAndCheckingCount" finished-at="2023-05-18T14:28:05 AST" duration-ms="3336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddingItemAndCheckingCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shoppingcart.AddingItemCheckCount@3743539f]" started-at="2023-05-18T14:28:05 AST" name="tearDown" finished-at="2023-05-18T14:28:05 AST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shoppingcart.AddingItemCheckCount -->
+      <class name="wishlist.AddingItemOpenWish">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:wishlist.AddingItemOpenWish@2cc75074]" started-at="2023-05-18T14:28:18 AST" name="setUp" finished-at="2023-05-18T14:28:20 AST" duration-ms="2163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:wishlist.AddingItemOpenWish@2cc75074]" started-at="2023-05-18T14:28:20 AST" name="goDemo" finished-at="2023-05-18T14:28:21 AST" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="testAddingItemAndCheckingWishListPage()[pri:0, instance:wishlist.AddingItemOpenWish@2cc75074]" started-at="2023-05-18T14:28:21 AST" name="testAddingItemAndCheckingWishListPage" finished-at="2023-05-18T14:28:25 AST" duration-ms="4119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddingItemAndCheckingWishListPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:wishlist.AddingItemOpenWish@2cc75074]" started-at="2023-05-18T14:28:25 AST" name="tearDown" finished-at="2023-05-18T14:28:25 AST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- wishlist.AddingItemOpenWish -->
+      <class name="shoppingcart.AddingItemOpenCart">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:shoppingcart.AddingItemOpenCart@378f002a]" started-at="2023-05-18T14:28:05 AST" name="setUp" finished-at="2023-05-18T14:28:07 AST" duration-ms="2075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goDemo(java.lang.String)[pri:0, instance:shoppingcart.AddingItemOpenCart@378f002a]" started-at="2023-05-18T14:28:07 AST" name="goDemo" finished-at="2023-05-18T14:28:08 AST" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goDemo -->
+        <test-method signature="testAddingItemAndCheckingCartPage()[pri:0, instance:shoppingcart.AddingItemOpenCart@378f002a]" started-at="2023-05-18T14:28:08 AST" name="testAddingItemAndCheckingCartPage" finished-at="2023-05-18T14:28:12 AST" duration-ms="3877" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="cart-label">...</span> is not clickable at point (1286, 22). Other element would receive the click: <p class="content">...</p>
+  (Session info: chrome=113.0.5672.126)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6fbd9c208e4ea2c09e5a33006423c256, clickElement {id=035A6F749D3BD38CC7F2AED122E14D89_element_56}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\magamy\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64696/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6fbd9c208e4ea2c09e5a33006423c256)] -> xpath: //span[@class='cart-label']]
+Session ID: 6fbd9c208e4ea2c09e5a33006423c256]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="cart-label">...</span> is not clickable at point (1286, 22). Other element would receive the click: <p class="content">...</p>
+  (Session info: chrome=113.0.5672.126)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6fbd9c208e4ea2c09e5a33006423c256, clickElement {id=035A6F749D3BD38CC7F2AED122E14D89_element_56}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.126, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\magamy\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64696/devtoo..., se:cdpVersion: 113.0.5672.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6fbd9c208e4ea2c09e5a33006423c256)] -> xpath: //span[@class='cart-label']]
+Session ID: 6fbd9c208e4ea2c09e5a33006423c256
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at pages.Product.ProductPage.clickCartPageBtn(ProductPage.java:103)
+at shoppingcart.AddingItemOpenCart.testAddingItemAndCheckingCartPage(AddingItemOpenCart.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddingItemAndCheckingCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shoppingcart.AddingItemOpenCart@378f002a]" started-at="2023-05-18T14:28:12 AST" name="tearDown" finished-at="2023-05-18T14:28:12 AST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shoppingcart.AddingItemOpenCart -->
+    </test> <!-- E2ETest -->
+  </suite> <!-- DemoCommerceBestPractice Suite -->
+</testng-results>

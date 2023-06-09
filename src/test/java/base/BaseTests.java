@@ -21,7 +21,7 @@ public class BaseTests {
      * @tearDown to Close the Driver.
      */
 
-    @BeforeClass
+    @BeforeMethod
     @Parameters({"browser", "baseURL"})
     public void setUp(String browser, String baseURL) {
         if (browser.equalsIgnoreCase("chrome")) {
@@ -34,7 +34,7 @@ public class BaseTests {
         goDemo(baseURL);
     }
 
-    @BeforeMethod
+    
     @Parameters({"baseURL"})
     public void goDemo(String baseURL){
         driver.manage().window().maximize();
@@ -42,7 +42,7 @@ public class BaseTests {
         homePage = new HomePage(driver);
     }
 
-    @AfterClass
+    @AfterMethod
     public void tearDown(){
         driver.quit();
     }
